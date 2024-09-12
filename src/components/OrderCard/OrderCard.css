@@ -1,0 +1,7 @@
+.order-card {
+    width: 18rem;
+    margin: 0 auto;
+    cursor: default !important;
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.059), 0 5px 10px 0 rgba(0, 0, 0, 0.059), 0 0 1px 0 rgba(0, 0, 0, 0.102);
+    border: none !important;
+}
