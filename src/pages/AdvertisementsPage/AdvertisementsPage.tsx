@@ -91,9 +91,9 @@ const AdvertisementsPage: React.FC = () => {
         setLoading(true);
         try {
             await createAdvertisement(newAdData);
-            const updatedAds = await getAllAdvertisements(); // Обновляем список после добавления
+            const updatedAds = await getAllAdvertisements();
             setAdvertisements(updatedAds);
-            handleCloseModal(); // Закрываем модальное окно после создания
+            handleCloseModal();
         } catch (error) {
             console.error('Ошибка при создании объявления:', error);
         } finally {

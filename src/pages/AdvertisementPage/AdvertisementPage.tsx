@@ -50,7 +50,7 @@ const AdvertisementPage: React.FC = () => {
         try {
             await updateAdvertisement(id!, formData);
             setIsEditing(false);
-            fetchAdvertisement();  // обновляем данные после изменения
+            fetchAdvertisement();
         } catch (err: any) {
             setError(err.message);
         } finally {
