@@ -19,7 +19,7 @@ const PaginationComponent: React.FC<PaginationComponentProps> = ({totalPages, cu
                 <Pagination.Item
                     key={index + 1}
                     active={index + 1 === currentPage}
-                    onClick={() => handlePageChange(index + 1)} // Используем обработчик с прокруткой
+                    onClick={() => handlePageChange(index + 1)}
                 >
                     {index + 1}
                 </Pagination.Item>
